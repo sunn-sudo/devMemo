@@ -1,0 +1,22 @@
+{
+    "jsonTestImport": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                       "S" : "aaa"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                       "S" : "bbb"
+                    }
+                }
+            }
+        }
+    ]
+}
